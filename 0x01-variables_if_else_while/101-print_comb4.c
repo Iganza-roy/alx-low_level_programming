@@ -18,12 +18,12 @@ int main(void)
 				if (l > m && m > n)
 				{
 					putchar(',');
-					putchar('');
+					putchar(' ');
 					putchar(l);
 					if (n != 55 || m != 56)
 					{
-						putchar(',')
-						putchar(' ')
+						putchar(',');
+						putchar(' ');
 					}
 				}
 
