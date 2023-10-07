@@ -1,23 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible different combinations of two digits.
+ * main - Prints all possible two-digit combinations in ascending order.
  *
- * Return Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
+	for (int n = 0; n <= 9; n++)
 	{
-		for (int j = i + 1; j <= 9; j++)
+		for (int m = 49; m <= 57; m++)
 		{
-			putchar(i + '0');
-			putchar(',');
-			putchar(' ');
-			putchar(j + '0');
-			if (j != 9)
+			if (m > n)
 			{
-				putchar(' ');
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
