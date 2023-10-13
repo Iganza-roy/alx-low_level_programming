@@ -13,7 +13,7 @@ int convert_day(int month, int day)
     switch (month)
     {
         case 2:
-		if (day >= 59)
+		if (day >= 60)
 		{
 			day++;
 		{
