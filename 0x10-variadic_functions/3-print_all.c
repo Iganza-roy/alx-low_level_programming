@@ -15,9 +15,11 @@ void print_all(const char * const format, ...)
 	char *str;
 	va_list sc;
 
-	va_start(sc, format);
+	va_start(sc, format);i
 
 	k = 0;
+	chkst = 0;
+
 	while (format != NULL && format[k] != '\0')
 	{
 		switch (format[k])
