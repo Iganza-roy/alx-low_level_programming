@@ -15,7 +15,7 @@ void print_all(const char * const format, ...)
 	char *str;
 	va_list sc;
 
-	va_start(sc, format);i
+	va_start(sc, format);
 
 	k = 0;
 	chkst = 0;
