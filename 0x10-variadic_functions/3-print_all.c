@@ -10,7 +10,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	int k = 0, chkst = 0;
+	int k = 0, chkst;
 
 	char *str;
 	va_list sc;
