@@ -2,7 +2,7 @@
 
 /**
  * list_len - returns number of elements
- * h: element
+ * @h: element
  * Return: length of the node
  */
 
