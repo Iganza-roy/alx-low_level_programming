@@ -69,15 +69,13 @@ This repository contains projects on the C programming language. The projects co
  
 # More Resources
 
-- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
-- [Data Structures](./DataStructures) : Code snippets and notes on data structures.
-- [Dynamic Memory Allocation](./dynamic_memory_alloc) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
-
-
+- [Pointers and Arrays]([./PointerArrays](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)) : Code snippets and notes on Pointers and Arrays from Concept Page.
+- [Data Structures]([./DataStructures](https://www.geeksforgeeks.org/data-structures/)) : Code snippets and notes on data structures.
+- [Dynamic Memory Allocation]([./dynamic_memory_alloc](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
 
 
 ### support:tada:
-If you like how i present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
+If you like how I present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
 
 ## Author
 - **Iganzaroy** - [iganzaroy55@gmail.com](https://github.com/Iganza-roy) ~ [@IganzaRoy](https://twitter.com/IganzaRoy):Twitter
