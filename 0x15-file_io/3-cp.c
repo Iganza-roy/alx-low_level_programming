@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	errc = close(srce);
 	if (errc == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't clode fd %d\n", srce);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", srce);
 		exit(100);
 	}
 
