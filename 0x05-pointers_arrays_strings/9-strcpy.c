@@ -2,9 +2,9 @@
 
 /**
 *_strcpy - copies string to the buffer
-* @dest: destiation
-* @src: source
-* Return: dest
+* @dest: destiation string
+* @src: source string
+* Return: the new string
 */
 
 char *_strcpy(char *dest, char *src)
