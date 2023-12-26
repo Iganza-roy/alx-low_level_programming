@@ -19,7 +19,7 @@ struct dog
 };
 
 /**
- * dog_t - typedef for struct dog
+ * dog_t - alis for struct dog
  */
 typedef struct dog dog_t;
 
