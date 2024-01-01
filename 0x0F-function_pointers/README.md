@@ -1,4 +1,4 @@
-#function_pointers
+# function_pointers
 This directory contains tasks on functon pointers. Here is a brief decsription of what each function does:
 
 0-print_name.c - Write a function that prints a name.
