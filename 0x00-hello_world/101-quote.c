@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * main - Entry point
+ * main - prints  a quote
  *
  * Return: Always 1 (Success)
  */
