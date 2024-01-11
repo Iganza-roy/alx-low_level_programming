@@ -1,3 +1,3 @@
-#preprocessor
+# preprocessor
 
-This directory contains my tasks on preprocessor
+This directory contains my tasks on the preprocessor directive

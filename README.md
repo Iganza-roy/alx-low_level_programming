@@ -74,11 +74,11 @@ This repository contains projects on the C programming language. The projects co
 - [Dynamic Memory Allocation]([./dynamic_memory_alloc](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
 
 
-### support:tada:
+### support:
 If you like how I present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
 
 ## Author
-- **Iganzaroy** - [iganzaroy55@gmail.com](https://github.com/Iganza-roy) ~ [@IganzaRoy](https://twitter.com/IganzaRoy):Twitter
+- **Iganzaroy** - [iganzaroy55@gmail.com](https://github.com/Iganza-roy)  ~  [@IganzaRoy](https://twitter.com/IganzaRoy) :Twitter
 
 
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
