@@ -32,7 +32,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 
 	header->next = new;
-	new->prev = new;
+	new->prev = header;
 
 	return (new);
 }
