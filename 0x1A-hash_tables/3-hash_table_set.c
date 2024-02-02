@@ -4,7 +4,7 @@
  * hash_table_set - adds an element to the hash table
  * @ht: the hash table to be updated
  * @key: the key
- * value: value associated with the key
+ * @value: value associated with the key
  * Return: 1 on succes, otherwise 0
  */
 
@@ -15,11 +15,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int idx;
 
 	if (ht == NULL || key == NULL || value == NULL || *key == '\0')
-		return 0;
+		return (0);
 
 	new_val = strdup(value);
 	if (new_val == NULL)
-		return 0;
+		return (0);
 
 	idx = key_index((const unsigned char *)key, ht->size);
 	new = ht->array[idx];
@@ -31,7 +31,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			free(new->value);
 			new->value = new_val;
 			free(new_val);
-			return 1;
+			return (1);
 		}
 		new = new->next;
 	}
@@ -40,7 +40,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (n_node == NULL)
 	{
 		free(new_val);
-		return 0;
+		return (0);
 	}
 
 	n_node->key = strdup(key);
@@ -48,12 +48,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		free(n_node);
 		free(new_val);
-		return 0;
+		return (0);
 	}
 
 	n_node->value = new_val;
 	n_node->next = ht->array[idx];
 	ht->array[idx] = n_node;
 
-	return 1;	
+	return (1);
 }
