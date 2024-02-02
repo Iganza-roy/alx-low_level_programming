@@ -1,3 +1,5 @@
+![hash tables](https://th.bing.com/th/id/OIP.I96ohlDIQBoTr5he3e5nMQHaEK?rs=1&pid=ImgDetMain)
+
 # Hash tables
 A hash table is a data structure that uses a hash function to map keys to indices of an array. It allows for efficient insertion, deletion, and retrieval of data.
 - **Working:** The hash function is applied to each key, determining the index where the corresponding value will be stored or retrieved in the array.
