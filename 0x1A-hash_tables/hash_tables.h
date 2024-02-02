@@ -37,5 +37,7 @@ hash_table_t *hash_table_create(unsigned long int size); /*creating hash_table*/
 unsigned long int hash_djb2(const unsigned char *str); /*implementing the djb2 algorithm*/
 unsigned long int key_index(const unsigned char *key, unsigned long int size); 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+void free_hash_table(hash_table_t *ht);
+
 
 #endif
