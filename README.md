@@ -75,7 +75,7 @@ This repository contains projects on the C programming language. The projects co
 
 
 ### support:
-If you like how I present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
+If you like how I present and document my work  do me a favor of giving a **Star** to my repos  |&&| a **Follow**
 
 ## Author
 - **Iganzaroy** - [iganzaroy55@gmail.com](https://github.com/Iganza-roy)  ~  [@IganzaRoy](https://twitter.com/IganzaRoy) :Twitter
