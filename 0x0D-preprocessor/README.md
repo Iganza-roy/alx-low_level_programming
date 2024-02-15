@@ -1,4 +1,4 @@
-# preprocessor
+# Preprocessor
 
 Preprocessors are programs that process the source code before compilation. Several steps are involved between writing a program and executing a program in C.
 
