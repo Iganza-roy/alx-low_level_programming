@@ -1,5 +1,5 @@
 # malloc_free
-C **Dynamic Memory Allocation* can be defined as a procedure in which the size of a data structure (like Array) is changed during the runtime.
+**C Dynamic Memory Allocation** can be defined as a procedure in which the size of a data structure (like Array) is changed during the runtime.
 C provides some functions to achieve these tasks. There are 4 library functions provided by C defined under ```<stdlib.h>``` header file to facilitate dynamic memory allocation in C programming. They are: 
 
 - malloc()
